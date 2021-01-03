@@ -613,7 +613,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 94.32, 95.52, 400.72, 87.1134 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 94.32, 95.52, 400.72, 94.74 }
                                       //  94.32, 95.52, 400.72, 94.74          _ 07.08.2020
                                       // 8.tel 47.16, 47.76, 200.36, 47.37
                                       // 16.tel 94.32, 95.52, 400.72, 94.74
@@ -750,7 +750,7 @@
   //#define WAIT_FOR_BED_HEATER     // Wait for bed to heat back up between probes (to improve accuracy)
 #endif
 //#define PROBING_FANS_OFF          // Turn fans off when probing
-#define DELAY_BEFORE_PROBING 210  // (ms) To prevent vibrations from triggering piezo sensors
+#define DELAY_BEFORE_PROBING 200  // (ms) To prevent vibrations from triggering piezo sensors
 
 // A probe that is deployed and stowed with a solenoid pin (SOL1_PIN)
 //#define SOLENOID_PROBE
