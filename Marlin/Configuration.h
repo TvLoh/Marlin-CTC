@@ -613,7 +613,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 94.32, 95.52, 400.72, 94.74 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 94.32, 95.52, 400.72, 351.6}
                                       //  94.32, 95.52, 400.72, 94.74          _ 07.08.2020
                                       // 8.tel 47.16, 47.76, 200.36, 47.37
                                       // 16.tel 94.32, 95.52, 400.72, 94.74
@@ -624,7 +624,7 @@
  * Override with M203
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_MAX_FEEDRATE          { 300, 300, 175, 25 }
+#define DEFAULT_MAX_FEEDRATE          { 300, 300, 175, 100 }
 
 /**
  * Default Max Acceleration (change/s) change = mm/s
